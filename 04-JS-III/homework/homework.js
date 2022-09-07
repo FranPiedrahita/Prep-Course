@@ -197,6 +197,8 @@ if(array[i] === "Marzo"){
 if(array[i] === "Noviembre"){
   newarray.push(array[i])
 }
+if(newarray.length === 3)
+return newarray;
 return "No se encontraron los meses pedidos"
 }
 
